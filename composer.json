@@ -9,6 +9,11 @@
             "email": "aaasayok@gmail.com"
         }
     ],
+    "autoload": {
+        "psr-4": {
+            "Wzj\\AliVod\\": "src/"
+        }
+    },
     "require": {
         "monyxie/aliyun-openapi-sdk-core": "^1.0",
         "monyxie/aliyun-openapi-sdk-sts": "^1.0",
